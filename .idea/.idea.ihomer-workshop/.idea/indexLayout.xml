@@ -11,6 +11,7 @@
       <Path>Library/PackageCache/com.unity.2d.spriteshape@7.0.4</Path>
       <Path>Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2</Path>
       <Path>Library/PackageCache/com.unity.burst@1.6.5</Path>
+      <Path>Library/PackageCache/com.unity.cinemachine@2.8.9</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.15.17</Path>
       <Path>Library/PackageCache/com.unity.ext.nunit@1.0.6</Path>
       <Path>Library/PackageCache/com.unity.ide.rider@3.0.14</Path>
@@ -30,6 +31,7 @@
       <Path>ProjectSettings</Path>
     </explicitIncludes>
     <explicitExcludes>
+      <Path>.git</Path>
       <Path>.idea</Path>
       <Path>Library</Path>
       <Path>Logs</Path>

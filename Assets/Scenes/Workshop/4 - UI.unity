@@ -642,6 +642,10 @@ PrefabInstance:
       propertyPath: onPickUpKey.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1680992713107484475, guid: 9aa8439a2e4798447a732b92b48677fb, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9aa8439a2e4798447a732b92b48677fb, type: 3}
 --- !u!1001 &2105445888
@@ -834,6 +838,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7990929790561746922, guid: 386061d368e64d9428bb8d680c548be1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7990929791635016547, guid: 386061d368e64d9428bb8d680c548be1, type: 3}
       propertyPath: m_Name
       value: Canvas
