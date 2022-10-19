@@ -17,7 +17,7 @@ public class DeelnemerAnimation : MonoBehaviour
 
     private void Update()
     {
-        if (movement == null)
+        if (!movement)
         {
             return;
         }

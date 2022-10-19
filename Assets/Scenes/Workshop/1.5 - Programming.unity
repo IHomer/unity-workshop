@@ -917,7 +917,7 @@ GameObject:
   - component: {fileID: 1094148786}
   - component: {fileID: 1094148785}
   m_Layer: 0
-  m_Name: Instantiation
+  m_Name: Instantiation & Prefabs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

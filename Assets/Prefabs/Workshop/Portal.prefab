@@ -4822,7 +4822,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5425811404659518942}
   - component: {fileID: 5425811404659518941}
-  - component: {fileID: 5425811404659518940}
   - component: {fileID: 5425811404659518943}
   m_Layer: 0
   m_Name: Portal
@@ -4874,35 +4873,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6, y: 0.6}
   m_EdgeRadius: 0
---- !u!114 &5425811404659518940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5425811404659518929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3893637da3bca314980b3c8f3be1f044, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collider: {fileID: 5425811404659518941}
-  action:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5425811404659518943}
-        m_TargetAssemblyTypeName: Portal, Assembly-CSharp
-        m_MethodName: Teleport
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: Deelnemer, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  deelnemerOnly: 1
 --- !u!114 &5425811404659518943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4915,7 +4885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f18d44d0fd5495b4e9e42dbfe11d3a2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toParticleSystem: {fileID: 0}
+  toParticleSystem: {fileID: 7792381203880507405}
   to: {fileID: 5425811405428016000}
 --- !u!1 &5425811405428016003
 GameObject:
@@ -5006,6 +4976,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3aa67e46a07c14e489a669334d83fd28, type: 3}
+--- !u!198 &7792381203880507405 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2008469174308202912, guid: 3aa67e46a07c14e489a669334d83fd28, type: 3}
+  m_PrefabInstance: {fileID: 8645677056296489389}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7792381203880507407 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2008469174308202914, guid: 3aa67e46a07c14e489a669334d83fd28, type: 3}

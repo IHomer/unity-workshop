@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1680992713107484469}
   - component: {fileID: 1680992713107484470}
   - component: {fileID: 1680992713107484475}
-  - component: {fileID: 1680992713107484468}
   - component: {fileID: 1680992713107484474}
   - component: {fileID: 1680992713107484473}
   m_Layer: 0
@@ -28,14 +27,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680992713107484471}
-  m_LocalRotation: {x: -0.5276387, y: -0.2053973, z: 0.0021574155, w: -0.8242602}
+  m_LocalRotation: {x: 0.5276378, y: 0.20539995, z: -0.0021577028, w: 0.82426}
   m_LocalPosition: {x: 3.05, y: 1.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 60.541, y: 43.147, z: 25.69}
 --- !u!212 &1680992713107484470
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -114,35 +113,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1680992713107484468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680992713107484471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3893637da3bca314980b3c8f3be1f044, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collider: {fileID: 1680992713107484475}
-  action:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DeelnemerInventory, Assembly-CSharp
-        m_MethodName: GrabKey
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1680992713107484474}
-          m_ObjectArgumentAssemblyTypeName: Key, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  deelnemerOnly: 1
 --- !u!114 &1680992713107484474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,6 +125,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed9caf09093a4d40b488596b2d67d5cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onPickUpKey:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1680992713107484473
 MonoBehaviour:
   m_ObjectHideFlags: 0

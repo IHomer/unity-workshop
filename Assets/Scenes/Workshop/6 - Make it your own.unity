@@ -940,56 +940,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 608894877722259899, guid: 199d4b50f4e6af04e9a99522c5d79ac9, type: 3}
-      propertyPath: onOpen.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 608894877722259899, guid: 199d4b50f4e6af04e9a99522c5d79ac9, type: 3}
-      propertyPath: onOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 608894877722259899, guid: 199d4b50f4e6af04e9a99522c5d79ac9, type: 3}
       propertyPath: onOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 382043615}
-    - target: {fileID: 608894877722259899, guid: 199d4b50f4e6af04e9a99522c5d79ac9, type: 3}
-      propertyPath: onOpen.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 608894877722259899, guid: 199d4b50f4e6af04e9a99522c5d79ac9, type: 3}
-      propertyPath: onOpen.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: HideKey
-      objectReference: {fileID: 0}
-    - target: {fileID: 608894877722259899, guid: 199d4b50f4e6af04e9a99522c5d79ac9, type: 3}
-      propertyPath: onOpen.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: KeyUI, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 608894877722259899, guid: 199d4b50f4e6af04e9a99522c5d79ac9, type: 3}
-      propertyPath: onOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 608894877722259902, guid: 199d4b50f4e6af04e9a99522c5d79ac9, type: 3}
       propertyPath: m_Name
       value: Treasure
-      objectReference: {fileID: 0}
-    - target: {fileID: 6693852381649814014, guid: 199d4b50f4e6af04e9a99522c5d79ac9, type: 3}
-      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6693852381649814014, guid: 199d4b50f4e6af04e9a99522c5d79ac9, type: 3}
-      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TryOpen
-      objectReference: {fileID: 0}
-    - target: {fileID: 6693852381649814014, guid: 199d4b50f4e6af04e9a99522c5d79ac9, type: 3}
-      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Treasure, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6693852381649814014, guid: 199d4b50f4e6af04e9a99522c5d79ac9, type: 3}
-      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 1754240840}
-    - target: {fileID: 6693852381649814014, guid: 199d4b50f4e6af04e9a99522c5d79ac9, type: 3}
-      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: DeelnemerInventory, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 199d4b50f4e6af04e9a99522c5d79ac9, type: 3}

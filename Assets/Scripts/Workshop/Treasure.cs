@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,12 +19,13 @@ public class Treasure : MonoBehaviour
         }
         else
         {
-            if (showOpenFailedCoroutine != null)
-            {
-                StopCoroutine(showOpenFailedCoroutine);
-            }
-
-            showOpenFailedCoroutine = StartCoroutine(ShowOpenFailed());
+            StartCoroutine(ShowOpenFailed());
+            // if (showOpenFailedCoroutine != null)
+            // {
+            //     StopCoroutine(showOpenFailedCoroutine);
+            // }
+            //
+            // showOpenFailedCoroutine = StartCoroutine(ShowOpenFailed());
         }
     }
 
@@ -39,6 +41,14 @@ public class Treasure : MonoBehaviour
         yield return new WaitForSeconds(1);
         treasureUI.enabled = false;
 
-        showOpenFailedCoroutine = null;
+        // showOpenFailedCoroutine = null;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.TryGetComponent(out DeelnemerInventory deelnemerInventory))
+        {
+            TryOpen(deelnemerInventory);
+        }
     }
 }
