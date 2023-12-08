@@ -531,6 +531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -935,7 +936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b6a0bec9bd313d408b4e428c0797afd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particle: {fileID: 717854500836798998, guid: 031889d0b5fedf94782de84f9647b9b8, type: 3}
+  particle: {fileID: 7538230122291867429, guid: e92710cf1a237c945ad6977f33de5e20, type: 3}
 --- !u!4 &1094148786
 Transform:
   m_ObjectHideFlags: 0
